@@ -37,6 +37,24 @@ To prepare for the workshop, please follow these steps:
 1. **Install Python**:
    - [Download Python](https://www.python.org/downloads/) and follow the installation instructions for your operating system.
 
+2. **Create a Virtual Environment**:
+   Navigate to your project directory in the terminal and run:
+
+   ```bash
+   python -m venv venv
+
+   ### On Windows and MacOS:
+
+    ```bash
+    venv\Scripts\activate
+    or 
+    source venv/bin/activate
+
+3. **Activate Virutal Environment**:
+
+    ```bash
+    pip install -r requirements.txt
+
 ## Google Email Setup
 
 In this automation workshop you will have to create a dummy email account to be able to test the automation. 

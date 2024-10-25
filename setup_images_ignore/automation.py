@@ -5,6 +5,7 @@ import os#intearcting with files in os
 from email.mime.multipart import MIMEMultipart
 from email.mime.text import MIMEText
 from email.mime.application import MIMEApplication
+from dotenv import load_dotenv
  
  #jj
  
@@ -17,13 +18,17 @@ smtp_server = 'smtp.gmail.com'
 #server port number
 smtp_port = 587
 #sender email address
+load_dotenv()
 smtp_username = os.getenv("SENDER") #
+print(smtp_username)
 #sender email address password
 smtp_password = os.getenv("IMAP_PASSWORD") 
+print(smtp_password)
 #sender email address
 from_email = os.getenv("SENDER") #
 #receiver email address
 to_email =  os.getenv("RECEIVER") #
+print(to_email)
 #subject
 subject = "yo contract or some shit?"
 #email body
