@@ -17,13 +17,13 @@ smtp_server = 'smtp.gmail.com'
 #server port number
 smtp_port = 587
 #sender email address
-smtp_username = 'test23889922@gmail.com'
+smtp_username = os.getenv("SENDER") #
 #sender email address password
-smtp_password = ''
+smtp_password = os.getenv("IMAP_PASSWORD") 
 #sender email address
-from_email = 'test23889922@gmail.com'
+from_email = os.getenv("SENDER") #
 #receiver email address
-to_email =  'philippeaustephen@gmail.com'
+to_email =  os.getenv("RECEIVER") #
 #subject
 subject = "yo contract or some shit?"
 #email body
@@ -64,8 +64,8 @@ with smtplib.SMTP(smtp_server, smtp_port) as smtp:
 #receiving
 
 imap_server = 'imap.gmail.com'
-imap_username = 'test23889922@gmail.com'
-imap_password = ''
+imap_username = os.getenv("SENDER")
+imap_password = os.getenv("IMAP_PASSWORD") 
 
 #receivng subject and sender
 with imaplib.IMAP4_SSL(imap_server) as imap:#logging into imap server

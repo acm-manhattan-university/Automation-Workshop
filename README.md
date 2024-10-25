@@ -84,7 +84,7 @@ Click on the option and continue to the next steps!
   <img src="./setup_images_ignore/img6.png" alt="image6"/>
 </p>
 
-COPY THE CODE BEFORE CLOSING THE PROGRAM!!!!
+COPY THE GENERATED CODE BEFORE CLOSING THE WINDOW!!!!
 - save the code somewhere you will keep safe!
 
 ---
