@@ -43,11 +43,12 @@ To prepare for the workshop, please follow these steps:
    ```bash
    python -m venv venv
 
-   ### On Windows and MacOS:
+   ### On Windows:
 
-    ```bash
     venv\Scripts\activate
-    or 
+
+   ### On macOS:
+
     source venv/bin/activate
 
 3. **Activate Virutal Environment**:
