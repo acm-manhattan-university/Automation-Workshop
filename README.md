@@ -1,4 +1,9 @@
 # ACM Automation Workshop 
+<p align="center">
+  <img src="./Paradigm-banner.gif" alt="image4"/>
+</p>
+
+---
 
 ## Overview
 
